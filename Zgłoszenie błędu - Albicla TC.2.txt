@@ -1,0 +1,30 @@
+Defekt ze strony https://albicla.com/zarejestruj
+
+
+1. Tytuł:
+	Proces Rejestracji. Niepoprawna nazwa kraju - Litwa.
+
+3. Środowisko:
+	Google Chrome Wersja 115.0.5790.102 (Oficjalna wersja) (64-bitowa)
+
+4. Priorytet:
+	Niski
+
+5. Opis:
+	Po uruchomieniu witryny www.albicla.com/rejestracja wyświetlany jest formularz rejestracyjny.
+	W polu <kraj> użytkownik ma możliwośc wyboru kraju. Wybór dokonywany jest spośród dostępnych w liście nazw.
+	Nazwy są polskojęzyczne z wyjątkiem kraju Litwa, która jest zapisana anglojęzycznie: "Lithuania".
+
+6. Lista kroków do reprodukcji:
+	6.1. Uruchomienie witryny: "https://albicla.com/zarejestruj",
+	6.2. Klieknięcie w pole wyboru <kraj>,
+	6.3. Wyszukanie poprzez analizę listy lub poprzez wyszukiwarkę kraju: "Litwa"
+
+	
+	
+7. Rzeczywisty rezultat:
+	"Litwa" nie znajduje się na liście wyboru. Na liście znajduje się prawidłowy kraj ale w zapisie anglojęzycznym 	"Lithuania".
+
+8. Oczekiwany rezyltat:
+	"Litwa" znajduje się na liście wyboru w polu <Kraj>
+	
