@@ -1,2 +1,2 @@
 # Testowanie
-Repozytorium - QA 
+W repozytorium zamieszczone są przykładowe efekty pracy.

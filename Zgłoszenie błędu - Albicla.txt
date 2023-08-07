@@ -1,0 +1,30 @@
+Defekt ze strony https://albicla.com/zarejestruj
+
+
+1. Tytuł:
+	Proces Rejestracji. Brak określonych wymagań oodnośnie poziomu skomplikowania hasła nowego użytkownika.
+
+3. Środowisko:
+	Google Chrome Wersja 115.0.5790.102 (Oficjalna wersja) (64-bitowa)
+
+4. Priorytet:
+	Wysoki
+
+5. Opis:
+	Po uruchomieniu witryny www.albicla.com/rejestracja wyświetlany jest formularz rejestracyjny.
+	Okno "Hasło" posiada wyłącznie jedną zasadę dotyczącą wprowadzonego ciągu znaków, dotyczy ona długości (8-32 znaki).
+	Brakuje określonych zasad dotyczących poziomu skomplikowania hasła, obecnie formularz akceptuje nawet hasła skłądające 	się 	wyłącznie ze znaków <space>: "        ".
+
+6. Lista kroków do reprodukcji:
+	6.1. Uruchomienie witryny: "https://albicla.com/zarejestruj",
+	6.2. Poprawne uzupełnienie denych rejestracyjnych: "imię i Nazwisko/Nazwa", "E-mail", "Kraj", "Język",
+	6.3. Wpisanie w oknach "Hasło" oraz "Powtórz hasło" ciągu znaków: "        ",
+	6.4. Akceptacja pól wyboru: "Regulamin", "typ konta", reCaptcha,
+	6.5. Wybranie przycisku "Utwórz konto".
+	
+7. Rzeczywisty rezultat:
+	Konto zostaje utworzone. Wyświetla się komunikat o wysłaniu wiadomości e-mail celem weryfikacji.
+
+8. Oczekiwany rezyltat:
+	Konto nie zostaje utworzone. Wyświetla się komunikat z wytycznymi odnośnie poziomu skomplikowania hasła, np.:mała, duża 	litera, znak specjalny, cyfra. Wymagane jest wprowadzenie bardziej skomplikowanego hasła.
+	
